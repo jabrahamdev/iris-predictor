@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='styles/styles.css') }}"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iris Predictor</title>
+
+    <header>
+      <h1>Iris Dataset Predictor</h1>
+      <h1>(By Abraham Flores)</h1>
+      <h2>Please enter your flower measurements below:</h2>
+      <h3>(Ingresa las dimensiones de la flor)</h3>
+    </header>
+
+    <form id="form" class="topBefore" method="POST">
+      {# This hidden_tag is a CSRF security feature. #} {{ form.hidden_tag() }}
+      {{ form.sep_len.label }} {{form.sep_len}}
+      <br />
+      {{ form.sep_wid.label}} {{form.sep_wid}}
+      <br />
+      {{form.pet_len.label}}{{form.pet_len}}
+      <br />
+      {{form.pet_wid.label}}{{form.pet_wid}}
+      <br />
+      <br />
+      <br />
+      {{ form.submit() }}
+    </form>
+  </head>
+  <body></body>
+</html>
