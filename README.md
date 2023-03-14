@@ -4,11 +4,11 @@
 
 ![](/imgs/Clipboard_2023-03-14-06-09-03.png)
 
-![](@attachment/Clipboard_2023-03-14-06-11-27.png)
+![](/imgs/Clipboard_2023-03-14-06-11-27.png)
 
-![](@attachment/Clipboard_2023-03-14-06-12-08.png)
+![](/imgs/Clipboard_2023-03-14-06-12-08.png)
 
-![](@attachment/Clipboard_2023-03-14-06-12-46.png)
+![](/imgs/Clipboard_2023-03-14-06-12-46.png)
 
 This machine learning Flask app uses a trained model to predict the type of flower based on user-input data. The app has a simple front-end that prompts the user to input various features of the flower such as sepal length, sepal width, petal length, and petal width.
 
