@@ -2,7 +2,7 @@
 
 ## Machine Learning Model Flask App Local Deployment with a simple front end
 
-![](/images/Clipboard_2023-03-14-06-09-03.png)
+![](/imgs/Clipboard_2023-03-14-06-09-03.png)
 
 ![](@attachment/Clipboard_2023-03-14-06-11-27.png)
 
